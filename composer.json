@@ -1,0 +1,12 @@
+{
+    "name": "cucmuc/atm-in-php",
+    "authors": [
+        {
+            "name": "Ana-Maria ANTON",
+            "email": "anuta96@yahoo.com"
+        }
+    ],
+    "require": {
+        "vlucas/phpdotenv": "^5.6"
+    }
+}
