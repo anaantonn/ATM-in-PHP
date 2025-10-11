@@ -14,9 +14,8 @@
                 <label>IBAN:</label><br>
                     <input type="text" name="iban" placeholder="IBAN" required><br>
                 <label>PIN:</label><br>
-                    <input type="number" name="pin" placeholder="PIN" required><br>
+                    <input type="password" inputmode="numeric" pattern="[0-9]*" maxlength=4 name="pin" placeholder="PIN" required><br>
                 <input type="submit" value="Submit">
             </form>
         </main>
     </body>
-?>

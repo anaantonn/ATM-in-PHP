@@ -73,7 +73,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
             $pdo->commit();
 
-            header("Location: account.php?id=" . urlencode($utilizatorid));
+            echo"<script>alert('Account created! Please proceed to log in.');  window.location.href = 'login.html'; </script>";
             exit;
 
             } catch (PDOException $e) {
