@@ -1,7 +1,7 @@
 <?php
 
-require __DIR__ . '/vendor/autoload.php';
-$dotenv = Dotenv\Dotenv::createImmutable(__DIR__);
+require dirname(__DIR__) . '/vendor/autoload.php';
+$dotenv = Dotenv\Dotenv::createImmutable(dirname(__DIR__));
 $dotenv->load();
 $hostname = $_ENV['HOST_NAME'];
 $dbname = $_ENV['DB_NAME'];
